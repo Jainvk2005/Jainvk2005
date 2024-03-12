@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    name = "This is the route."
+    name = "This is the route"
     return name
 
-@app.route('/hello')
-def hello():
+@app.route('/win')
+def win():
     name = "Let us Reach 200 CEs together"
     return name
 
