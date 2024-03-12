@@ -1,16 +1,7 @@
-##first API
+## First API
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
-def index():
-    name = "This is the route"
-    return name
-
-@app.route('/win')
-def win():
-    name = "Let us Reach 200 CEs together"
-    return name
-
-if __name__ == "__main__":
-    app.run()
+def hello_world():
+    return 'Let us Reach 200 CEs together.'
